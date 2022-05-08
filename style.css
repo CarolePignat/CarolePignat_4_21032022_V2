@@ -706,8 +706,9 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 h3 {
@@ -724,7 +725,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C!important;
 }
 
 h4 {
@@ -737,7 +738,9 @@ h4 {
 }
 
 .white {
+    font-size: 20px;
     color: #FFFFFF!important;
+    padding-bottom: 16px;
 }
 
 .portfolio-thumb {
@@ -775,8 +778,19 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.explanation {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.idea {
+    font-size: 22px;
+}
+
+.agency {
+    font-size: 16px;
+    padding-top: 30px;
 }
 
 .btn-atomic-tangerine {
