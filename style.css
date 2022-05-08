@@ -272,6 +272,15 @@ a:hover {
     margin-top: 80px;
 }
 
+.testimony {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.author_testimony {
+    font-size: 18px;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -678,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -826,10 +835,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
