@@ -13,9 +13,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
 
@@ -80,8 +80,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it
-						seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1">
 
 							<div class="form-group">
 								<label for="name">Nom</label>
@@ -110,7 +109,8 @@
 								</textarea>
 							</div> 
 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine submit" type="submit">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" 
+								aria-label="bouton scrollup pour remonter en haut de la page" type="submit">
 								Envoyer
 							</button>
 
@@ -129,11 +129,13 @@
 						<a class="contactUs" href="mailto:contact@agencelapanthere.com" aria-label="adresse email de l'agence 
 						La Panthère pour nous contacter">contact@agencelapanthere.com</a>
 
-						<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.083137370331!2d4.
-						827973251220188!3d45.7695240790032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!
-						2s2%20Pl.%20Sathonay%2C%2069001%20Lyon%2C%20France!5e0!3m2!1sfr!2sch!4v1652087142347!5m2!1sfr!2sch" 
-						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-						referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe class="map" aria-label="carte Google Maps pour trouver l'agence La Panthère" 
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.083137370331!2d4.
+						827973251220188!3d45.7695240790032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+						1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon%2C%20France!
+						5e0!3m2!1sfr!2sch!4v1652087142347!5m2!1sfr!2sch" width="600" height="450" style="border:0;" 
+						allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+						</iframe>
 					</div>
 				</div>
 			</div>

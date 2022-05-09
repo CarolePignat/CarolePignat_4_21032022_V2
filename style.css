@@ -279,6 +279,7 @@ a:hover {
 
 .author_testimony {
     font-size: 18px;
+    color:#000;
 }
 
 .row-no-gutters {
@@ -345,6 +346,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    font-weight: 700;
 }
 
 .navbar-toggle {
@@ -524,8 +526,8 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 45px;
+    right: 45px;
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
@@ -538,6 +540,10 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+}
+
+.fa-chevron-up {
+    color: #fff;
 }
 
 a[data-lightbox] {
@@ -832,7 +838,7 @@ label {
 
 .agency {
     font-size: 16px;
-    padding-top: 30px;
+    padding-top: 16px;
     color: #000;
 }
 
