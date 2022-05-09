@@ -695,6 +695,20 @@ p {
     font-weight: 700;
 }
 
+.contactUs {
+    font-size: 18px;
+}
+
+.contactUs:hover {
+    font-weight: 700;
+}
+
+.map {
+    width: 80%; 
+    height: 290px;
+    margin-top: 20px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -827,8 +841,6 @@ label {
 }
 
 .btn-atomic-tangerine:hover {
-    /*background: #c27956!important;
-    color: #000;*/
     background-color: #000;
     color: #FFF;
 }
