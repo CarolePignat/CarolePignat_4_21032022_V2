@@ -728,7 +728,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #000;
+    /*color: #000;*/ 
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -845,12 +845,14 @@ label {
 
 .btn-atomic-tangerine {
     background: #F3976C;
+    color: #000;
 }
 
 .btn-atomic-tangerine:hover {
-    background-color: #000;
-    color: #FFF;
+    background: #000;
+    color: #FFF!important;
 }
+
 
 /*.ltc-white {
     color: #FFFFFF!important;
@@ -933,10 +935,6 @@ label {
         overflow-x: hidden;
         position: relative;
     }
-    /*.bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }*/ 
 
     .bloc-group,
     .bloc-group .bloc {
@@ -946,9 +944,7 @@ label {
 
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        /*padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);*/ 
+        padding: 0 20px; 
     }
 }
 
