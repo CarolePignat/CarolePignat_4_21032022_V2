@@ -889,9 +889,8 @@ label {
 
 @media (min-width: 1367px) {
     .bloc {
-        width: 80%;
+        width: 90%;
         margin: auto;
-        max-width: 2000px;
     }
 }
 
