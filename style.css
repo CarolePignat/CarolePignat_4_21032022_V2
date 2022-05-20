@@ -889,10 +889,9 @@ label {
 
 @media (min-width: 1367px) {
     .bloc {
-        max-width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
+        width: 90%;
+        margin: auto;
+        max-width: 2000px;
     }
 }
 
