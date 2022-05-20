@@ -887,6 +887,15 @@ label {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+@media (min-width: 1367px) {
+    .bloc {
+        max-width: 100%;
+    }
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
