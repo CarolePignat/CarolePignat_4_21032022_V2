@@ -887,11 +887,10 @@ label {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-@media (min-width: 1367px) {
+@media (min-width: 1926px) {
     body {
         width: 90%;
         margin: auto;
-        max-width: 2000px;
     }
 }
 
